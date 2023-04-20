@@ -17,7 +17,7 @@ for line in program_lines:
 
 execute(ast)
 
-#Clean
+#Clean token
 def remove_space(s):
     return s.replace(' ','')
 
@@ -100,4 +100,3 @@ def exe_calculation(var_name, expression, output_format):
     exe_assign(var_name, expression)
     var_name = remove_space(var_name)
     print(output_format.replace('__',str(combines[var_name])))
-
