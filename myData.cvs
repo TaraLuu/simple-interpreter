@@ -1,0 +1,5 @@
+
+bill               | What's the cost of bill?  |
+tip percentage     | 0.1                       |
+tip amount         | bill x tip percentage     |
+                   | bill - tip amount         | Your total cost of bill is __.
